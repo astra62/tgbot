@@ -175,7 +175,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 def main() -> None:
     """Run the bot."""
     # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-    application = Application.builder().token("8003450739:AAFNUivWuwltMeKpNHMXcq1q2NByH6xNrxE").build()
+    application = Application.builder().token("7579428841:AAEOwattBEhZiPX0UlBtsnFuIrgXdb5yvS8").build()
 
     # Set up conversation handler
     conv_handler = ConversationHandler(
